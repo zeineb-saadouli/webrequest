@@ -1,0 +1,73 @@
+/* Réinitialisation de base */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Styles de l'en-tête */
+header {
+    background-color: #4a90e2;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+/* Section de recherche */
+#search {
+    margin: 20px 0;
+}
+
+#city-input {
+    padding: 10px;
+    font-size: 1rem;
+    width: 70%;
+    max-width: 400px;
+    margin-right: 10px;
+}
+
+#search-btn {
+    padding: 10px 20px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#search-btn:hover {
+    background-color: #357abd;
+}
+
+/* Informations météo */
+#weather-info {
+    margin-top: 20px;
+}
+
+#city-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#temperature, #description {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+/* Pied de page */
+footer {
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: #666;
+}
